@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Industrial Opportunity - 1",
+        "location": "Nairobi",
+        "status": "Open",
+        "irr": "13%",
+        "entryYield": "8.1%",
+        "value": "$3.20M",
+        "type": "Industrial",
+        "funded": "95%"
+    },
+    {
+        "id": 2,
+        "name": "Healthcare Growth Opportunity",
+        "location": "Kisumu",
+        "status": "Fully Funded",
+        "irr": "16-18%",
+        "entryYield": "0%",
+        "value": "$3.50M",
+        "type": "Healthcare",
+        "funded": "100%"
+    }
+]

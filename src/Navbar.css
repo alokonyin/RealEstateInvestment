@@ -1,0 +1,72 @@
+/* Header should not grow */
+.App-header {
+    flex: 0 0 auto;
+    margin-bottom: 4rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .auth-buttons .button {
+    text-decoration: none; /* Remove underline */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .auth-buttons .sign-up {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .auth-buttons .sign-up:hover {
+    background-color: #0056b3;
+  }
+  
+  .auth-buttons .sign-in {
+    background-color: white;
+    color: #333;
+    border: 1px solid #333;
+  }
+  
+  .auth-buttons .sign-in:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .scroll-button {
+    outline: none;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* .scroll-button:hover {
+    background-color: #0056b3;
+  } */
+  
